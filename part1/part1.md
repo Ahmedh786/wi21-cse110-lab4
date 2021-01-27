@@ -16,3 +16,19 @@
 	3. student.greeting()
 	4. student['Favorite Teacher'].name
 	5. student.courseLoad[0]
+14. 
+	1. '32', string concatenation occurs
+	2. 1, string converted to number
+	3. 3, null is converted to 0 
+	4. '3null', string concatenation occurs
+	5. 4, boolean true is converted to 1
+	6. 0, false is converted to 0 and null is converted to 0
+	7. '3undefined', string concatenation occurs
+	8. NaN, undefined is NaN as a number
+15.
+	1. true, string '2' gets converted to number 2
+	2. false, '2' is lexicographically greater than 12
+	3. true, '2' gets converted to number 2
+	4. false, true is converted to 1
+	5. true, nonzero number converted to true
+16. == checks equality after type conversion, === is stricter and does not convert types before comparison
