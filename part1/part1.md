@@ -32,3 +32,4 @@
 	4. false, true is converted to 1
 	5. true, nonzero number converted to true
 16. == checks equality after type conversion, === is stricter and does not convert types before comparison
+17. 'How are you', because the true is converted to a 1, so the first if statement fails. 2 is always true here so the else if will be entered.
