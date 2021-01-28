@@ -33,3 +33,4 @@
 	5. true, nonzero number converted to true
 16. == checks equality after type conversion, === is stricter and does not convert types before comparison
 17. 'How are you', because the true is converted to a 1, so the first if statement fails. 2 is always true here so the else if will be entered.
+19. [6,8,10] will be the result. This is because when the first callback function is called, doSomething gets executed, which itself has a callback function that adds 2 to its num parameter. We now move back to the original callback call, where here we take that returned num and multiply it by 2, then append to the array. So, for the first element 1, (1+2) will occur, followed by (3*2). The same will occur for the next 2 elements. 
